@@ -4,7 +4,7 @@ const LibraryPage = () => {
     return (
         <div className="page-wrapper">
             <div className='page-content'>
-                <div className='library-page-heading'>Coming soon...</div>
+                <div className='coming-soon'>Coming soon...</div>
             </div>
         </div>
     )

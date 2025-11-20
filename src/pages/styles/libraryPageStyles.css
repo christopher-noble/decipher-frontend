@@ -2,7 +2,7 @@
     height: 100dvh;
 }
 
-.library-page-heading {
+.coming-soon {
     margin-top: 35dvh;
     margin-bottom: 50px;
     margin-left: auto;
@@ -10,7 +10,7 @@
     font-size: 40px;
     font-weight: 500;
     font-family: var(--secondary-font);
-  
+
     /* ------- Gradient Header Style ------- */
     background: var(--header-primary);
     -webkit-background-clip: text;

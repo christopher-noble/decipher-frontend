@@ -112,6 +112,22 @@
   /* --------------------- */
 }
 
+.coming-soon {
+  margin-top: 35dvh;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+
+  /* ------- Gradient Header Style ------- */
+  background: var(--header-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* --------------------- */
+}
+
 footer {
   height: 35dvh;
   overflow: auto;

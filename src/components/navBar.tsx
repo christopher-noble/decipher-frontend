@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from "react-router-dom";
 import "./styles/navBarStyles.css";
 
@@ -11,7 +10,7 @@ const NavBar = () => {
             <Container className='navBar-container'>
                 <Navbar.Brand as={NavLink} to="/">
                     <div className='logo-area'>
-                        <a href='/'><img src='./logo-no-background.png' alt='decipher-logo'></img></a>
+                        <img src='./logo-no-background.png' alt='decipher-logo'></img>
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle className='navbar-dark' aria-controls="basic-navbar-nav" />
@@ -20,13 +19,6 @@ const NavBar = () => {
                         <Nav.Link as={NavLink} className='nav-link-home' to="/">Home</Nav.Link>
                         <Nav.Link as={NavLink} className='nav-link-library' to="/library">Library</Nav.Link>
                         <Nav.Link as={NavLink} className='nav-link-upload' to="/upload">Upload</Nav.Link>
-                        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
