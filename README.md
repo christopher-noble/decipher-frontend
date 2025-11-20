@@ -6,10 +6,21 @@ With Decipher, you can effortlessly pinpoint any segment in your favourite podca
 
 ## Technical Workflow
 
-- **User-Friendly Interface**: Simplify audio content management and access.
-- **Real-Time Transcription Updates**: Monitor progress in real-time.
-- **Keyword Tagging**: Input and tag keywords for transcription and timestamping.
-- **Seamless Backend Integration**: Connect seamlessly with the Decipher backend.
+1. **Upload Content**
+   - Submit audio files directly or provide YouTube URLs for processing
+   - Supports multiple formats including MP3, MP4, and other common media types
+
+2. **Keyword Configuration**
+   - Define specific phrases and terms you want to locate within the content
+   - Tag system allows for multiple search queries in a single transcription job
+
+3. **Real-Time Processing**
+   - Backend transcription engine processes audio with live status updates
+   - Progress monitoring keeps you informed throughout the entire workflow
+
+4. **Results Delivery**
+   - Complete transcript output with keyword-specific timestamp mapping
+   - Precise time-coded results for instant navigation to relevant segments
 
 ## Delivery
 
